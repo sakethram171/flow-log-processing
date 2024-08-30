@@ -1,0 +1,11 @@
+Tag Counts:
+Tag,Count
+ssh,1
+secure_web,1
+untagged,1
+
+Port/Protocol Combination Counts:
+Port,Protocol,Count
+22,tcp,1
+443,tcp,1
+25,tcp,1

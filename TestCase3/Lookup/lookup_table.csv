@@ -1,0 +1,5 @@
+dstport,protocol,tag
+80,tcp,web
+443,tcp,secure_web
+53,udp,dns
+80,tcp,duplicate_web

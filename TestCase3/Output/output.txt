@@ -1,0 +1,11 @@
+Tag Counts:
+Tag,Count
+duplicate_web,3
+secure_web,1
+dns,1
+
+Port/Protocol Combination Counts:
+Port,Protocol,Count
+80,tcp,3
+443,tcp,1
+53,udp,1
