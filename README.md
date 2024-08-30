@@ -70,8 +70,7 @@ python3 LogProcessor.py
 python3 LogProcessor.py --test TestCase1
 ```
 * Run with Custom Format:
-   * To process logs with a custom format, modify the `main()` function to include the custom log format.
-   * For example, custom format with dstport at index 8, protocol_number at index 9 as shown below:
+   * To process logs with a custom format, modify the `main()` function to include the custom log format. For example, in `TestCase4`, the custom format has `dstport` at index 8 and `protocol_number` at index 9, as shown below:
 ```bash
 custom_format = [('dstport', 8), ('protocol_number', 9)] 
 
