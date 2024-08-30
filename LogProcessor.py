@@ -218,7 +218,7 @@ def main():
            
     custom_format = [('dstport', 8), ('protocol_number', 9)] 
 
-    port_proto_tag, tags_count, port_proto_combo = process_flow_logs_extended(flow_file='flow_logs.csv',
+    port_proto_tag, tags_count, port_proto_combo = process_flow_logs_extended(flow_file=flow_file,
                                                                             lookup_table=lookup_table,
                                                                             protocol_map=protocol_map,
                                                                             log_format=custom_format)

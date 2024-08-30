@@ -1,0 +1,11 @@
+Tag Counts:
+Tag,Count
+web_service,2
+secure_web_service,1
+dns_service,1
+
+Port/Protocol Combination Counts:
+Port,Protocol,Count
+8080,tcp,2
+8443,tcp,1
+53,udp,1

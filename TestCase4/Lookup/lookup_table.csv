@@ -1,0 +1,4 @@
+dstport,protocol,tag
+8080,tcp,web_service
+8443,tcp,secure_web_service
+53,udp,dns_service
